@@ -1,0 +1,15 @@
+.projectcontainer{
+  height: 100vh;
+  width: 100%;
+  background-color: aliceblue;
+}
+.projectcontainer h1{
+  text-align: center;
+  color: rgb(14, 184, 127);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.projectrow{
+  display: flex;
+
+}

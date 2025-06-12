@@ -1,0 +1,45 @@
+
+.content{ 
+  border-right: 1px solid brown;
+  margin: 0 auto;
+  height: auto;
+}
+
+.portImg{
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  height:70%;
+  max-width: 300px;
+}
+.content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #508fce;
+}
+
+.content h1 span {
+  color: #d5d9de; /* Bootstrap primary */
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #197bdd;
+}
+
+.content p {
+  font-size: 1.1rem;
+  margin-top: 15px;
+  color: #c8cdd2;
+}
+.homecontainer{
+  background: url('/back4.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+height:100vh;
+display: flex;
+align-items: center;
+justify-content: space-around;
+opacity: 0.7;
+}
