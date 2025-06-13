@@ -5,6 +5,8 @@ import {Button} from 'react-bootstrap'
 
 import pic1 from './images/digi.jpeg'
 import pic2 from './images/pali.jpeg'
+import pic3 from './images/login.jpeg'
+import pic4 from './images/signin.jpeg'
 const Projects = () => {
   const projectsData=[{
     id:1,
@@ -15,18 +17,18 @@ const Projects = () => {
   },{
     id:2,
     title:"PALINDROME CHECK",
-    imgurl:'/pali.jpeg',
+    imgurl:pic2,
     description:'A simple Palindrome Checker Projet created using Html,Css,Javascript',
     demolink:'/sign in/demo.html'
   },{
     id:3,
     title:"LOGIN",
-    imgurl:'/login.jpeg',
+    imgurl:pic3,
     description:'A simple Login Page created using Html,Css,Javascript',
     demolink:'/sign in/login.html'
   },{id:4,
     title:"SIGNIN",
-    imgurl:'/signin.jpeg',
+    imgurl:pic4,
     description:'A simple SignUp Page created using Html,Css,Javascript',
     demolink:'/sign in/Sign.html'
   }
