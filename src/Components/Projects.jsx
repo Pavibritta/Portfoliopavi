@@ -2,8 +2,9 @@ import React, { useState } from 'react'
 import './projects.css'
 import {Card} from 'react-bootstrap'
 import {Button} from 'react-bootstrap'
-import { useNavigate } from 'react-router-dom'
+
 import pic1 from './images/digi.jpeg'
+import pic2 from './images/pali.jpeg'
 const Projects = () => {
   const projectsData=[{
     id:1,
