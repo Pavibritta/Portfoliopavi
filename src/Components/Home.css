@@ -1,4 +1,5 @@
 
+
 .content{ 
   border-right: 1px solid brown;
   margin: 0 auto;
@@ -34,7 +35,7 @@
   color: #c8cdd2;
 }
 .homecontainer{
-  background: url('/back4.jpeg');
+  background: url('images/back4.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 height:100vh;

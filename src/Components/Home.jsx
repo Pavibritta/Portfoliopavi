@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import pavi from './images/pavithraph.png'
 const Home = () => {
   return (
     <>
@@ -15,7 +16,7 @@ const Home = () => {
              
            </div>
            <div className='col-lg-5 col-sm-12'>
-             <img src="/pavithraph.png"className='portImg'/>
+             <img src={pavi}className='portImg'/>
            </div>
            
         </div>
