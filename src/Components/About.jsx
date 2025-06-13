@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
+import pdf from './images/pavithra.pdf'
 const About = () => {
   return (
     <>
@@ -18,7 +19,7 @@ const About = () => {
         <li>Bootstrap, React JS</li>
         <li>Git, GitHub</li>
       </ul>
-      <a href="/pavithra.pdf" download='Pavithra_Resume.pdf'style={{textDecoration:"none",margin:'10px'}}>
+      <a href={pdf} download='Pavithra_Resume.pdf'style={{textDecoration:"none",margin:'10px'}}>
         <button className='btn btn-success d-flex justify-content-center align-items-center m-1 p-2'>RESUME <FaRegArrowAltCircleDown size={30}/></button>
       </a>
            </div>
