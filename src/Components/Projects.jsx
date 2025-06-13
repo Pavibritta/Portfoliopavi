@@ -3,11 +3,12 @@ import './projects.css'
 import {Card} from 'react-bootstrap'
 import {Button} from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
+import pic1 from '../../public/digital clock'
 const Projects = () => {
   const projectsData=[{
     id:1,
     title:"DIGITAL CLOCK",
-    imgurl:'/digi.jpeg',
+    imgurl:pic1,
     description:'A simple digital clock created using Html,Css,Javascript',
     demolink:'/digital clock/demo.html'
   },{
