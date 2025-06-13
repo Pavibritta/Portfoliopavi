@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import {Link, useNavigate} from 'react-router-dom'
 import { MdOutlineMenu } from "react-icons/md";
 import { AiFillCloseCircle } from "react-icons/ai";
+import logo from './images/logo.png'
 import './Navbar.css'
 const Navbar = () => {
   const [toggle,setToggle]=useState(true)
@@ -27,9 +28,9 @@ const Navbar = () => {
   return (
     <>
       <div className='container-fluid navbarcontainer'>
-        <img src="/logo.png" alt="logo" style={{display:"none"}} className='logoimg'/>
+        <img src={logo} alt="logo" style={{display:"none"}} className='logoimg'/>
         <div className='navbar'>
-          <img src="/logo.png" alt="logo"/>
+          <img src={logo} alt="logo"/>
           <ul>
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/about'>About</Link></li>
