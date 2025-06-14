@@ -15,8 +15,8 @@ const Home = () => {
             </div>
              
            </div>
-           <div className='col-lg-5 col-sm-12'>
-             <img src={pavi}className='portImg'/>
+           <div className='col-lg-5 col-sm-12 imagediv'>
+             
            </div>
            
         </div>
