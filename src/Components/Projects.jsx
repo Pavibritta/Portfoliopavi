@@ -19,7 +19,7 @@ const Projects = () => {
     title:"PALINDROME CHECK",
     imgurl:pic2,
     description:'A simple Palindrome Checker Projet created using Html,Css,Javascript',
-    demolink:''
+    demolink:'https://pavibritta.github.io/Palindrome/'
   },{
     id:3,
     title:"LOGIN",
