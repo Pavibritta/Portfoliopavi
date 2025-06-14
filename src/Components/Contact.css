@@ -1,5 +1,5 @@
 .contactcontainer{
-  background-color: rgb(178, 128, 224);
+  background-color: rgb(213, 207, 219);
   height: 100vh;
   width: 100%;
   display: flex;
@@ -36,12 +36,16 @@
   width: 60%;
   padding: 20px;
   border-radius: 10px;
-  background: rgb(195, 234, 195);
-  
+  background:transparent;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 .input-feild input::placeholder{
   color: rgb(19, 40, 43);
   font-weight: 500;
+}
+.input-feild input:active{
+  border: 3px solid rgb(229, 144, 144);
 }
 .input-message{
   display: flex;
@@ -57,11 +61,15 @@
   outline: none;
   resize: none;
   border-radius: 20px;
-  
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.input-message textarea:active{
+  border: 3px solid rgb(229, 144, 144);
 }
 .input-feild button{
   width: 60%;
   font-size: 20px;
   font-weight: bold;
   margin: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
