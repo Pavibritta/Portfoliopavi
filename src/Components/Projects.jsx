@@ -25,7 +25,7 @@ const Projects = () => {
     title:"LOGIN",
     imgurl:pic3,
     description:'A simple Login Page created using Html,Css,Javascript',
-    demolink:''
+    demolink:'https://pavibritta.github.io/Login/'
   },{id:4,
     title:"SIGNIN",
     imgurl:pic4,
