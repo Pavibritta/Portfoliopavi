@@ -7,6 +7,7 @@ import pic1 from './images/digi.jpeg'
 import pic2 from './images/pali.jpeg'
 import pic3 from './images/login.jpeg'
 import pic4 from './images/signin.jpeg'
+import pic5 from './images/ecommerse.jpeg'
 const Projects = () => {
   const projectsData=[{
     id:1,
@@ -31,6 +32,12 @@ const Projects = () => {
     imgurl:pic4,
     description:'A simple SignUp Page created using Html,Css,Javascript',
     demolink:'https://pavibritta.github.io/Signup/'
+  },
+  {id:5,
+    title:"E-commerse",
+    imgurl:pic5,
+    description:'A simple E-commerse website created using Html,Css,Bootstrap',
+    demolink:'https://pavibritta.github.io/ecommerse/'
   }
 ]
   return (
