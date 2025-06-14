@@ -13,7 +13,7 @@ const Projects = () => {
     title:"DIGITAL CLOCK",
     imgurl:pic1,
     description:'A simple digital clock created using Html,Css,Javascript',
-    demolink:'/digital clock/demo.html'
+    demolink:'https://pavibritta.github.io/digitalclock/'
   },{
     id:2,
     title:"PALINDROME CHECK",
