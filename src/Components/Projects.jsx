@@ -49,7 +49,7 @@ const Projects = () => {
           {data.description}
         </Card.Text>
         <center>
-          <a href={data.demolink} target="_blank">
+          <a href={data.demolink} target="_blank" rel="noopener noreferrer">
           <Button variant="primary">Click to see</Button>
         </a>
         </center>
