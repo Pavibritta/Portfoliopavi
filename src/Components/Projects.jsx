@@ -19,18 +19,18 @@ const Projects = () => {
     title:"PALINDROME CHECK",
     imgurl:pic2,
     description:'A simple Palindrome Checker Projet created using Html,Css,Javascript',
-    demolink:'/sign in/demo.html'
+    demolink:''
   },{
     id:3,
     title:"LOGIN",
     imgurl:pic3,
     description:'A simple Login Page created using Html,Css,Javascript',
-    demolink:'/sign in/login.html'
+    demolink:''
   },{id:4,
     title:"SIGNIN",
     imgurl:pic4,
     description:'A simple SignUp Page created using Html,Css,Javascript',
-    demolink:'/sign in/Sign.html'
+    demolink:'https://pavibritta.github.io/Signup/'
   }
 ]
   return (
